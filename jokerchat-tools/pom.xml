@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jokerchat</artifactId>
+        <groupId>com.joker2yue.chat</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jokerchat-tools</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>jokerchat-redis</module>
+        <module>jokerchat-transaction</module>
+        <module>jokerchat-common-starter</module>
+        <module>jokerchat-frequency-control</module>
+        <module>jokerchat-oss-starter</module>
+    </modules>
+
+
+</project>
