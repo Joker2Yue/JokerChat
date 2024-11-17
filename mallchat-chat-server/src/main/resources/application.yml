@@ -8,10 +8,12 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
+server:
+  port: 8115
 spring:
   profiles:
     #运行的环境
-    active: my-test
+    active: test
   application:
     name: mallchat
   datasource:
