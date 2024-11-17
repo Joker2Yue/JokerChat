@@ -38,7 +38,7 @@ docker logs -f rmqnamesrv
 
 我们可以看到 **'The Name Server boot success..'，** 表示NameServer 已成功启动。
 
-![image-20241117134854722](./START.assets/image-20241117134854722.png)
+![image-20241117134854722](./image/image-20241117134854722.png)
 
 #### 4.启动 Broker+Proxy
 
@@ -69,7 +69,7 @@ docker exec -it rmqbroker bash -c "tail -n 10 /home/rocketmq/logs/rocketmqlogs/p
 
 我们可以看到 **'The broker boot success..'，** 表示 Broker 已成功启动。
 
-![image-20241117135608775](./START.assets/image-20241117135608775.png)
+![image-20241117135608775](./image/image-20241117135608775.png)
 
 至此，一个单节点副本的 RocketMQ 集群已经部署起来了，我们可以利用脚本进行简单的消息收发。
 
@@ -128,6 +128,6 @@ docker run -d -p 9000:9000 --name minio \
 
 浏览器输入**127.0.0.1:9000**，如果出现如下界面，则MinIO成功启动。
 
-![image-20241117142719442](./START.assets/image-20241117142719442.png)
+![image-20241117142719442](./image/image-20241117142719442.png)
 
 登录时的用户名密码在上一步中已经定义。接下来你可以在MinIO中创建存储桶和AK/SK。
